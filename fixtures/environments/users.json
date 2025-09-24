@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "role": "depositor",
+            "email": "automation1@gmail.com",
+            "password": "Test1234!"
+        },
+        {
+            "role": "non-depositor",
+            "email": "automation2@gmail.com",
+            "password": "Test1234!"
+        },
+        {
+            "role": "vip",
+            "email": "automation3@gmail.com",
+            "password": "Test1234!"
+        },
+        {
+            "role": "guest"
+        }
+    ]
+}
