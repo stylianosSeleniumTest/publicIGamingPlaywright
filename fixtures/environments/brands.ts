@@ -8,6 +8,8 @@ export const environmentData: Record<EnvironmentName, EnvironmentConfig> = {
     brands: [
       { name: 'madcasino', url: 'https://www.ecasino.com' },
       { name: 'slottio', url: 'https://www.elottio.com' },
+      { name : 'saucedemo' ,  url: 'https://www.saucedemo.com/'},
+      { name: 'thinking', url:'https://thinking-tester-contact-list.herokuapp.com/'}
     ],
   },
   staging: {
@@ -15,6 +17,7 @@ export const environmentData: Record<EnvironmentName, EnvironmentConfig> = {
     brands: [
       { name: 'madcasino', url: 'https://staging.ecasino.com' },
       { name: 'slottio', url: 'https://staging.elottio.com' },
+      {name : 'saucedemo' ,  url: 'https://www.saucedemo.com/'}
     ],
   },
   development: {
@@ -22,6 +25,7 @@ export const environmentData: Record<EnvironmentName, EnvironmentConfig> = {
     brands: [
       { name: 'madcasino', url: 'https://dev.ecasino.com' },
       { name: 'slottio', url: 'https://dev.elottio.com' },
+      {name : 'saucedemo' ,  url: 'https://www.saucedemo.com/'}
     ],
   },
 };
