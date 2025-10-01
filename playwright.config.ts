@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+    testDir: './playwright-project/tests',
   /* Configure projects for major browsers */
   projects: [
     {

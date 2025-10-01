@@ -2,7 +2,9 @@
   "name": "personalplaywrighttest",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "demo-test": "playwright test playwright-project/tests/demo-test.spec.ts --project=chromium --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
