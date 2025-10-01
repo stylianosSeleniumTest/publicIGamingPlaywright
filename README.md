@@ -10,17 +10,17 @@ The framework follows the **Page Object Model (POM)** pattern and organizes reus
 ## 📂 Project Structure
 
 publicIGamingPlaywright/
-│
-├── playwright.config.ts # Playwright configuration
+├── playwright.config.ts          # Playwright configuration
 ├── playwright-project/
-│ ├── tests/ # Test spec files (*.spec.ts)
-│ ├── page-objects-demo/ # Page Object classes (PascalCase)
-│ ├── hooks/ # Environment & user detail hooks
-│ ├── helpers/ # Scenario helpers (e.g., signUpFormHelper)
-│ ├── utils/ # Generic utility functions
-│ ├── enum-parameters/ # Enums for envs, brands, roles
-│ └── fixtures/ # Test data fixtures
+│   ├── tests/                   # Test spec files (*.spec.ts)
+│   ├── page-objects-demo/       # Page Object classes (PascalCase)
+│   ├── hooks/                   # Environment & user detail hooks
+│   ├── helpers/                 # Scenario helpers (e.g., signUpFormHelper)
+│   ├── utils/                   # Generic utility functions
+│   ├── enum-parameters/         # Enums for envs, brands, roles
+│   └── fixtures/                # Test data fixtures
 └── README.md
+
 
 
 ---
